@@ -6,6 +6,7 @@ public class Test2
 	{
 		System.out.println("Push");
 		System.out.println("Pull");
+		System.out.println("Push");
 		
 	}
 
