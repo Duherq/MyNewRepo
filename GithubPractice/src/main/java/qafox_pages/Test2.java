@@ -10,6 +10,8 @@ public class Test2
 
 		System.out.println("Change");
 		
+		System.out.println("Change2");
+		
 
 	}
 
