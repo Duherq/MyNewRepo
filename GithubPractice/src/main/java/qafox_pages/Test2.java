@@ -12,6 +12,8 @@ public class Test2
 		
 		System.out.println("Change2");
 		
+		System.out.println("Change3");
+		
 
 	}
 
