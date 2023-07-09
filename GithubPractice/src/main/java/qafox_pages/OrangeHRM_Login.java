@@ -21,13 +21,13 @@ public class OrangeHRM_Login
 		WebElement username_inputbox=driver.findElement(username_xpath);
 			
 		username_inputbox.click();
-		username_inputbox.sendKeys("Admin");
+		username_inputbox.sendKeys("Admina");
 			
 		By password_xpath=By.xpath("//input[@name='password']");
 		WebElement password_inputbox=driver.findElement(password_xpath);
 			
 		password_inputbox.click();
-		password_inputbox.sendKeys("admin123");
+		password_inputbox.sendKeys("admin1234");
 	
 	}
 
