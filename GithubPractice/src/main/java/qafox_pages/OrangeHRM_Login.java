@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 public class OrangeHRM_Login 
 {
@@ -32,6 +33,10 @@ public class OrangeHRM_Login
 		WebElement login_button=driver.findElement(login_button_xpath);
 		
 		login_button.click();
+		
+		String actual_url="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
+		
+		Assert.assertEquals(actual_url,driver.getCurrentUrl() ,"Successfully Login");
 
 	}
 
