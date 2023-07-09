@@ -27,6 +27,11 @@ public class OrangeHRM_Login
 		
 		password_inputbox.click();
 		password_inputbox.sendKeys("admin123");
+		
+		By login_button_xpath=By.xpath("//button[normalize-space(text()='Login')]");
+		WebElement login_button=driver.findElement(login_button_xpath);
+		
+		login_button.click();
 
 	}
 
