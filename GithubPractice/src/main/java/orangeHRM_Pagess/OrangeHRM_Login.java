@@ -2,19 +2,37 @@ package orangeHRM_Pagess;
 
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class OrangeHRM_Login extends Driver 
 {
-	public static void main(String[] args) throws Exception
+	@BeforeMethod
+	public void open_browser() throws Exception
 	{
-		
-	    OpenBrowser();
-	    String actual_url="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+		OpenBrowser();
+	}
+	@AfterMethod
+	public void close_browser()
+	{
+		CloseBrowser();
+	}
+	@Test
+	public void check_navigate_orangeHRM_loginPage()
+	{
+		String actual_url="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	    String expected_url=driver.getCurrentUrl();
 	    Assert.assertEquals(actual_url, expected_url,"Sorry your not navigate to OrangeHRM_Login page");
 	    
+	}
+	@Test
+	public void login_With_ValidCredentials(String[] args) throws Exception
+	{
+		check_navigate_orangeHRM_loginPage();
+		
 		OrangeHRM_LoginPage.click_username();
-		Assert.assertTrue(OrangeHRM_LoginPage.username().isSelected(),"Username inputbox is not clicked");
+		Assert.assertTrue(OrangeHRM_LoginPage.username().isDisplayed(),"Username inputbox is not clicked");
 		
 		String actual_username="Admin";
 		OrangeHRM_LoginPage.enterusername("Admin");
@@ -22,7 +40,7 @@ public class OrangeHRM_Login extends Driver
 		Assert.assertEquals(actual_username, expected_username,"Sorry Expected username is not match with actual username");
 		
 		OrangeHRM_LoginPage.click_password();
-		Assert.assertTrue(OrangeHRM_LoginPage.password().isSelected(),"Username inputbox is not clicked");
+		Assert.assertTrue(OrangeHRM_LoginPage.password().isDisplayed(),"Username inputbox is not clicked");
 		
 		String actual_password="admin123";
 		OrangeHRM_LoginPage.enterpassword("admin123");
@@ -34,7 +52,6 @@ public class OrangeHRM_Login extends Driver
 		
 		String actual_dashboardurl="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
 		Assert.assertEquals(actual_dashboardurl,driver.getCurrentUrl() ,"Sory Something went wrong not login");
-		
 		
         
 	}
