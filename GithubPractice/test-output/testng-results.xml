@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T14:38:45 IST" name="Default suite" finished-at="2023-07-10T14:38:58 IST" duration-ms="12982">
+  <suite started-at="2023-07-10T14:42:55 IST" name="Default suite" finished-at="2023-07-10T14:43:08 IST" duration-ms="13373">
     <groups>
     </groups>
-    <test started-at="2023-07-10T14:38:45 IST" name="Default test" finished-at="2023-07-10T14:38:58 IST" duration-ms="12982">
+    <test started-at="2023-07-10T14:42:55 IST" name="Default test" finished-at="2023-07-10T14:43:08 IST" duration-ms="13373">
       <class name="qafox_pages.QAFOX_CreateAccount_TestCase">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@1ed4ae0f]" started-at="2023-07-10T14:38:45 IST" name="launch_browser" finished-at="2023-07-10T14:38:52 IST" duration-ms="6669" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@8f2ef19]" started-at="2023-07-10T14:42:55 IST" name="launch_browser" finished-at="2023-07-10T14:43:02 IST" duration-ms="7563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="check_createaccountwith_validCredentials()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@1ed4ae0f]" started-at="2023-07-10T14:38:52 IST" name="check_createaccountwith_validCredentials" finished-at="2023-07-10T14:38:52 IST" duration-ms="640" status="PASS">
+        <test-method signature="check_createaccountwith_validCredentials()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@8f2ef19]" started-at="2023-07-10T14:43:02 IST" name="check_createaccountwith_validCredentials" finished-at="2023-07-10T14:43:03 IST" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_createaccountwith_validCredentials -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@1ed4ae0f]" started-at="2023-07-10T14:38:52 IST" name="close_browserr" finished-at="2023-07-10T14:38:52 IST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@8f2ef19]" started-at="2023-07-10T14:43:03 IST" name="close_browserr" finished-at="2023-07-10T14:43:03 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browserr -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@1ed4ae0f]" started-at="2023-07-10T14:38:52 IST" name="launch_browser" finished-at="2023-07-10T14:38:58 IST" duration-ms="5374" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@8f2ef19]" started-at="2023-07-10T14:43:03 IST" name="launch_browser" finished-at="2023-07-10T14:43:08 IST" duration-ms="4942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="check_navigate_QAFOXCreateAccountPage()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@1ed4ae0f]" started-at="2023-07-10T14:38:58 IST" name="check_navigate_QAFOXCreateAccountPage" finished-at="2023-07-10T14:38:58 IST" duration-ms="10" status="PASS">
+        <test-method signature="check_navigate_QAFOXCreateAccountPage()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@8f2ef19]" started-at="2023-07-10T14:43:08 IST" name="check_navigate_QAFOXCreateAccountPage" finished-at="2023-07-10T14:43:08 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_navigate_QAFOXCreateAccountPage -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@1ed4ae0f]" started-at="2023-07-10T14:38:58 IST" name="close_browserr" finished-at="2023-07-10T14:38:58 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@8f2ef19]" started-at="2023-07-10T14:43:08 IST" name="close_browserr" finished-at="2023-07-10T14:43:08 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browserr -->
