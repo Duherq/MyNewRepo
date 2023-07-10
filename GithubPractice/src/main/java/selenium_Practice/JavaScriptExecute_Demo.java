@@ -32,6 +32,8 @@ public class JavaScriptExecute_Demo
 		By shoes_xpath = By.xpath("//img[@alt=\"ASIAN Men's Wonder-13 Sports Running Shoes\"]");
 		WebElement select_shoes = driver.findElement(shoes_xpath);
 		select_shoes.click();
+		
+		driver.close();
 	}
 
 }
