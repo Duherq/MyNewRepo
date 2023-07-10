@@ -10,6 +10,7 @@ public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
 	private static By firstname_xpath=By.xpath("//input[@name='firstname']");
 	private static By lastname_xpath=By.xpath("//input[@name='lastname']");
 	private static By email_xpath=By.xpath("//input[@name='email']");
+	private static By telephon_inputbox_xpath=By.xpath("//input[@name='telephone']");
 	private static By password_xpath=By.xpath("//input[@name='password']");
 	private static By confirmpassword_xpath=By.xpath("//input[@name='confirm']");
 	private static By privacy_policy_checkbox_xpath=By.xpath("//input[@name='agree']");
@@ -55,6 +56,19 @@ public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
 	public static void enter_email(String email)
 	{
 		email_inputbox().sendKeys(email);
+	}
+	public static WebElement telephon_inputbox()
+	{
+	   WebElement telephon=driver.findElement(telephon_inputbox_xpath);
+	   return telephon;
+	}
+	public static void click_telephon_inputbox()
+	{
+		telephon_inputbox().click();
+	}
+	public static void enter_telephonNo(String phon_No)
+	{
+		telephon_inputbox().sendKeys(phon_No);
 	}
 	public static WebElement password_inputbox()
 	{

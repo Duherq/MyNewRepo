@@ -32,27 +32,39 @@ public class QAFOX_CreateAccount_TestCase extends QAF_Common_Functions
 		String actual_lastname="Quazi";
 		String actual_email="duher123@gmail.com";
 		String actual_phoneNo="9999999999";
+		String actual_password="Duher@123";
+
 		
 		check_navigate_QAFOXCreateAccountPage();
 		QAFOX_CreateAccount_Page.click_firstname_inputbox();
-		Assert.assertTrue(QAFOX_CreateAccount_Page.firstname_inputbox().isDisplayed(),"Respected inputbox should not be Clicked successfully");
+		Assert.assertTrue(QAFOX_CreateAccount_Page.firstname_inputbox().isDisplayed(),"Respected inputbox should not be Clicked ");
 		QAFOX_CreateAccount_Page.enter_firstname("Duher");
-		String expected_firstname=QAFOX_CreateAccount_Page.firstname_inputbox().getAttribute("value");
-	    Assert.assertEquals(actual_firstname,expected_firstname,"Expected firstname should be entered successfully");
+	    Assert.assertEquals(actual_firstname,QAFOX_CreateAccount_Page.firstname_inputbox().getAttribute("value"),"Expected firstname should be entered successfully");
 	    
 	    QAFOX_CreateAccount_Page.click_lastname_inputbox();
-	    Assert.assertTrue(QAFOX_CreateAccount_Page.lastname_inputbox().isDisplayed(),"Respected inputbox should not be clicked successfully");
+	    Assert.assertTrue(QAFOX_CreateAccount_Page.lastname_inputbox().isDisplayed(),"Respected inputbox should not be clicked ");
 	    QAFOX_CreateAccount_Page.enter_lastname("Quazi");
-	    String expected_lastname=QAFOX_CreateAccount_Page.lastname_inputbox().getAttribute("value");
-	    Assert.assertEquals(actual_lastname, expected_lastname,"Expected lastname should not be entered successfully");
+	    Assert.assertEquals(actual_lastname, QAFOX_CreateAccount_Page.lastname_inputbox().getAttribute("value"),"Expected lastname should not be entered ");
 	    
 	    QAFOX_CreateAccount_Page.click_email_inputbox();
-	    Assert.assertTrue(QAFOX_CreateAccount_Page.email_inputbox().isDisplayed(),"Respected inputbox should not be clicked successfully");
+	    Assert.assertTrue(QAFOX_CreateAccount_Page.email_inputbox().isDisplayed(),"Respected inputbox should not be clicked ");
 	    QAFOX_CreateAccount_Page.enter_email("duher123@gmail.com");
-	    String expected_email=QAFOX_CreateAccount_Page.email_inputbox().getAttribute("value");
-	    Assert.assertEquals(actual_email, expected_email,"Expected lastname should be entered successfully");
+	    Assert.assertEquals(actual_email, QAFOX_CreateAccount_Page.email_inputbox().getAttribute("value"),"Expected lastname should not be entered successfully");
 	    
+	    QAFOX_CreateAccount_Page.click_telephon_inputbox();
+	    Assert.assertTrue(QAFOX_CreateAccount_Page.telephon_inputbox().isDisplayed(),"Respected inputbox should not be clicked");
+	    QAFOX_CreateAccount_Page.enter_telephonNo("9999999999");
+	    Assert.assertEquals(actual_phoneNo, QAFOX_CreateAccount_Page.telephon_inputbox().getAttribute("value"),"Expected phon number should not be entered ");
 	
+	    QAFOX_CreateAccount_Page.click_password_inputbox();
+	    Assert.assertTrue(QAFOX_CreateAccount_Page.password_inputbox().isDisplayed(),"Respected inputbox should not be clicked");
+	    QAFOX_CreateAccount_Page.enter_password("Duher@123");
+	    Assert.assertEquals(actual_password, QAFOX_CreateAccount_Page.password_inputbox().getAttribute("value"),"Expected password should not be entered ");
+
+	    QAFOX_CreateAccount_Page.click_confirmPassword_inputbox();
+	    Assert.assertTrue(QAFOX_CreateAccount_Page.confirmPassword_inputbox().isDisplayed(),"Respected inputbox should not be clicked");
+	    QAFOX_CreateAccount_Page.enter_confirmPassword("Duher@123");
+	    Assert.assertEquals(actual_password,QAFOX_CreateAccount_Page.confirmPassword_inputbox().getAttribute("value"),"Expected confirm password should not be entered");
 	}
 
 
