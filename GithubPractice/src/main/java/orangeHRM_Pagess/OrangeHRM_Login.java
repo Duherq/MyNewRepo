@@ -1,4 +1,4 @@
-package orangeHRM_pages;
+package orangeHRM_Pagess;
 
 
 import org.testng.Assert;
