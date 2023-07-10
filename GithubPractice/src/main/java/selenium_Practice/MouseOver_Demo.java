@@ -17,9 +17,6 @@ public class MouseOver_Demo
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().window().maximize();
 		
-//		By platform_link_xpath=By.xpath("//a[text()='Platform']");
-//		WebElement platform_link=driver.findElement(platform_link_xpath);
-		
 		By company_link_xpath=By.xpath("//a[text()='Company']");
 		WebElement company_link=driver.findElement(company_link_xpath);
 		
@@ -30,6 +27,8 @@ public class MouseOver_Demo
 	           
      act.moveToElement(company_link).moveToElement(pressReleases_link).perform();
             pressReleases_link.click(); 
+            
+            driver.close();
 		
 	}
 
