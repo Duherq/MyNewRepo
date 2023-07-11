@@ -6,7 +6,6 @@
       <class name="qafox_pages.QAFOX_CreateAccount_TestCase">
         <methods>
           <include name="launch_browser"/>
-          <include name="close_browserr"/>
           <include name="check_createaccountwith_validCredentials"/>
         </methods>
       </class> <!-- qafox_pages.QAFOX_CreateAccount_TestCase -->

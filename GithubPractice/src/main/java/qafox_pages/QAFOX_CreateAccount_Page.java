@@ -11,12 +11,13 @@ public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
 	private static By lastname_xpath=By.xpath("//input[@name='lastname']");
 	private static By email_xpath=By.xpath("//input[@name='email']");
 	private static By telephon_inputbox_xpath=By.xpath("//input[@name='telephone']");
-	private static By password_xpath=By.xpath("//input[@name='password']");
+	private static By password_xpath=By.xpath("//input[@id='input-password' and @name='password']");
 	private static By confirmpassword_xpath=By.xpath("//input[@name='confirm']");
 	private static By privacy_policy_checkbox_xpath=By.xpath("//input[@name='agree']");
 	private static By navbar_tabs_xpath=By.xpath("//div[@class='collapse navbar-collapse navbar-ex1-collapse']//ul/li/a");
     private static By components_tab_xpath=By.xpath("//a[@class='dropdown-toggle' and text()='Components']");
-	
+	private static By subscribeoption_yes_xpath=By.xpath("//label[@class='radio-inline']//input[@name='newsletter' and @value='1']");
+    
 	public static WebElement firstname_inputbox()
 	{
 		WebElement firstname=driver.findElement(firstname_xpath);
@@ -81,7 +82,7 @@ public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
 	}
 	public static void enter_password(String password)
 	{
-		firstname_inputbox().sendKeys(password);
+		password_inputbox().sendKeys(password);
 	}
 	public static WebElement confirmPassword_inputbox()
 	{
@@ -114,6 +115,15 @@ public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
 	{
 		WebElement component=driver.findElement(components_tab_xpath);
 		return component;
+	}
+	public static WebElement subscribeoption_yes()
+	{
+		WebElement yes=driver.findElement(subscribeoption_yes_xpath);
+		return yes;
+	}
+	public static void click_yesoption()
+	{
+		subscribeoption_yes().click();
 	}
 	
 

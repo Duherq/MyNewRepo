@@ -13,19 +13,19 @@ public class QAFOX_CreateAccount_TestCase extends QAF_Common_Functions
 	{
 		open_browser();
 	}
-	@AfterMethod
-	public void close_browserr() throws Exception
-	{
-	    close_browser();	
-	}
-	@Test
+//	@AfterMethod
+//	public void close_browserr() throws Exception
+//	{
+//	    close_browser();	
+//	}
+	@Test(priority=1)
 	public void check_navigate_QAFOXCreateAccountPage() throws Exception
 	{
 		String actual_url="https://tutorialsninja.com/demo/index.php?route=account/register";
 		String expected_url=driver.getCurrentUrl();
 		Assert.assertEquals(actual_url, expected_url,"Successfully Navigate to QAFOX Create Account page");	
 	}
-	@Test
+	@Test(priority=2)
 	public void check_createaccountwith_validCredentials() throws Exception
 	{
 		String actual_firstname="Duher";
@@ -59,12 +59,18 @@ public class QAFOX_CreateAccount_TestCase extends QAF_Common_Functions
 	    QAFOX_CreateAccount_Page.click_password_inputbox();
 	    Assert.assertTrue(QAFOX_CreateAccount_Page.password_inputbox().isDisplayed(),"Respected inputbox should not be clicked");
 	    QAFOX_CreateAccount_Page.enter_password("Duher@123");
-	    Assert.assertEquals(actual_password, QAFOX_CreateAccount_Page.password_inputbox().getAttribute("value"),"Expected password should not be entered ");
+	    System.out.println(QAFOX_CreateAccount_Page.password_inputbox().getDomAttribute("value"));
+	    Assert.assertEquals(actual_password,QAFOX_CreateAccount_Page.password_inputbox().getAttribute("value"),"Expected password should not be entered ");
 
 	    QAFOX_CreateAccount_Page.click_confirmPassword_inputbox();
 	    Assert.assertTrue(QAFOX_CreateAccount_Page.confirmPassword_inputbox().isDisplayed(),"Respected inputbox should not be clicked");
 	    QAFOX_CreateAccount_Page.enter_confirmPassword("Duher@123");
 	    Assert.assertEquals(actual_password,QAFOX_CreateAccount_Page.confirmPassword_inputbox().getAttribute("value"),"Expected confirm password should not be entered");
+	    
+	    Assert.assertFalse(QAFOX_CreateAccount_Page.subscribeoption_yes().isSelected(),"Yes Option is selected it is not expected");
+	    
+	    QAFOX_CreateAccount_Page.click_privacy_policy_checkbox();
+	    Assert.assertTrue(QAFOX_CreateAccount_Page.privacy_policy_checkbox().isSelected(), "Privacy checkbox is not clicked");
 	}
 
 
