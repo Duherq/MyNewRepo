@@ -13,11 +13,11 @@ public class QAFOX_CreateAccount_TestCase extends QAF_Common_Functions
 	{
 		open_browser();
 	}
-//	@AfterMethod
-//	public void close_browserr() throws Exception
-//	{
-//	    close_browser();	
-//	}
+	@AfterMethod
+	public void close_browserr() throws Exception
+	{
+	    close_browser();	
+	}
 	@Test(priority=1)
 	public void check_navigate_QAFOXCreateAccountPage() throws Exception
 	{
