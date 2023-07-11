@@ -59,7 +59,6 @@ public class QAFOX_CreateAccount_TestCase extends QAF_Common_Functions
 	    QAFOX_CreateAccount_Page.click_password_inputbox();
 	    Assert.assertTrue(QAFOX_CreateAccount_Page.password_inputbox().isDisplayed(),"Respected inputbox should not be clicked");
 	    QAFOX_CreateAccount_Page.enter_password("Duher@123");
-	    System.out.println(QAFOX_CreateAccount_Page.password_inputbox().getDomAttribute("value"));
 	    Assert.assertEquals(actual_password,QAFOX_CreateAccount_Page.password_inputbox().getAttribute("value"),"Expected password should not be entered ");
 
 	    QAFOX_CreateAccount_Page.click_confirmPassword_inputbox();
