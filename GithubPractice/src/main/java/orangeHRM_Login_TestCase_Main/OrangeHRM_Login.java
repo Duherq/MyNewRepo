@@ -30,7 +30,7 @@ public class OrangeHRM_Login extends Driver
 	    
 	}
 	@Test(description="Test Case:Validate OrangeHRM Login with Valid Credentials")
-	public void login_With_ValidCredentials(String[] args) throws Exception
+	public void login_With_ValidCredentials() throws Exception
 	{
 		check_navigate_orangeHRM_loginPage();
 		
