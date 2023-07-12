@@ -56,7 +56,7 @@ public class OrangeHRM_Login extends Driver
 		String actual_dashboardurl="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
 		Assert.assertEquals(actual_dashboardurl,driver.getCurrentUrl() ,"Sory Something went wrong not login");
 		
-        
+        System.out.println("Pass");
 	}
 
 }
