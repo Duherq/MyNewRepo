@@ -18,14 +18,14 @@ public class QAFOX_CreateAccount_TestCase extends QAF_Common_Functions
 	{
 	    close_browser();	
 	}
-	@Test(priority=1)
+	@Test(priority=1,description="Test Case:Validate Navigate to QAFOX Create Account page")
 	public void check_navigate_QAFOXCreateAccountPage() throws Exception
 	{
 		String actual_url="https://tutorialsninja.com/demo/index.php?route=account/register";
 		String expected_url=driver.getCurrentUrl();
 		Assert.assertEquals(actual_url, expected_url,"Successfully Navigate to QAFOX Create Account page");	
 	}
-	@Test(priority=2)
+	@Test(priority=2,description="Test Case:Validate Create Account with valid Credentials",groups="create Account")
 	public void check_createaccountwith_validCredentials() throws Exception
 	{
 		String actual_firstname="Duher";
@@ -70,6 +70,7 @@ public class QAFOX_CreateAccount_TestCase extends QAF_Common_Functions
 	    
 	    QAFOX_CreateAccount_Page.click_privacy_policy_checkbox();
 	    Assert.assertTrue(QAFOX_CreateAccount_Page.privacy_policy_checkbox().isSelected(), "Privacy checkbox is not clicked");
+	
 	}
 
 
