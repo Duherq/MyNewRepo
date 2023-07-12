@@ -1,10 +1,13 @@
-package orangeHRM_Pagess;
+package orangeHRM_Login_TestCase_Main;
 
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import orangeHRM_Pagess.Driver;
+import orangeHRM_Pagess.OrangeHRM_LoginPage;
 
 public class OrangeHRM_Login extends Driver 
 {
@@ -18,7 +21,7 @@ public class OrangeHRM_Login extends Driver
 	{
 		CloseBrowser();
 	}
-	@Test
+	@Test(priority=1,description="Test Case:Validate Navigate to OrangeHRM LoginPage")
 	public void check_navigate_orangeHRM_loginPage()
 	{
 		String actual_url="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
@@ -26,7 +29,7 @@ public class OrangeHRM_Login extends Driver
 	    Assert.assertEquals(actual_url, expected_url,"Sorry your not navigate to OrangeHRM_Login page");
 	    
 	}
-	@Test
+	@Test(description="Test Case:Validate OrangeHRM Login with Valid Credentials")
 	public void login_With_ValidCredentials(String[] args) throws Exception
 	{
 		check_navigate_orangeHRM_loginPage();

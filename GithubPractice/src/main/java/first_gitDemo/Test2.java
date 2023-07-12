@@ -1,4 +1,4 @@
-package qafox_pages;
+package first_gitDemo;
 
 public class Test2 
 {
