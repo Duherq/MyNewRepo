@@ -13,7 +13,7 @@ public class OrangeHRM_LoginPage
 	private static By dashboard_logo_xpath=By.xpath("//div[@class='oxd-brand-banner']//img[@src='/web/images/orangehrm-logo.png?v=1683010990518']");
 	private static By invalid_msg_xpath=By.xpath("//p[@class='oxd-text oxd-text--p oxd-alert-content-text']");
 	private static By required_msg_xpath=By.xpath("//span[text()='Required']");
-	
+	private static By msg;
 	
 	public static WebElement username()
 	{
