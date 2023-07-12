@@ -28,7 +28,7 @@ public class OrangeHRM_Login_TestCase extends Driver
 	    Assert.assertEquals(actual_url, expected_url,"Sorry your not navigate to OrangeHRM_Login page");
 	    
 	}
-	@Test(description="Test Case:Validate OrangeHRM Login with Valid Credentials")
+	@Test(priority=2,description="Test Case:Validate OrangeHRM Login with Valid Credentials")
 	public void login_With_ValidCredentials() throws Exception
 	{
 		check_navigate_orangeHRM_loginPage();
