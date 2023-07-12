@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class QAF_Common_Functions
 {
-	 static WebDriver driver;
+	 public static WebDriver driver;
 		
 		public static void open_browser()
 		{
@@ -20,7 +20,7 @@ public class QAF_Common_Functions
 		}
 		public static void click_navbar_tabs(String tab_name)
 		{
-			List<WebElement> tab=QAFOX_CreateAccount_Page.navbar_tabs();
+			List<WebElement> tab=QAFOX_RegisterAccount_Page.navbar_tabs();
 			
 			for(WebElement i:tab)
 			{

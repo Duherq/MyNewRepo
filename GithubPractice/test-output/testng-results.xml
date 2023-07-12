@@ -1,37 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-12T11:40:41 IST" name="Default suite" finished-at="2023-07-12T11:40:52 IST" duration-ms="10677">
+  <suite started-at="2023-07-12T18:15:30 IST" name="Default suite" finished-at="2023-07-12T18:15:47 IST" duration-ms="16902">
     <groups>
+      <group name="Register Account">
+        <method signature="QAFOX_RegisterAccount_TestCase.check_registeraccountwith_validCredentials()[pri:2, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" name="check_registeraccountwith_validCredentials" class="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase"/>
+        <method signature="QAFOX_RegisterAccount_TestCase.validate_RegisterAccount_withoutPrivacyPolicy()[pri:4, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" name="validate_RegisterAccount_withoutPrivacyPolicy" class="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase"/>
+      </group> <!-- Register Account -->
+      <group name="Register account">
+        <method signature="QAFOX_RegisterAccount_TestCase.validate_registerAccount_blankOne_mandatoryField()[pri:3, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" name="validate_registerAccount_blankOne_mandatoryField" class="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase"/>
+      </group> <!-- Register account -->
     </groups>
-    <test started-at="2023-07-12T11:40:41 IST" name="Default test" finished-at="2023-07-12T11:40:52 IST" duration-ms="10677">
-      <class name="qafox_pages.QAFOX_CreateAccount_TestCase">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@2a265ea9]" started-at="2023-07-12T11:40:41 IST" name="launch_browser" finished-at="2023-07-12T11:40:46 IST" duration-ms="5268" status="PASS">
+    <test started-at="2023-07-12T18:15:30 IST" name="Default test" finished-at="2023-07-12T18:15:47 IST" duration-ms="16902">
+      <class name="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:30 IST" name="launch_browser" finished-at="2023-07-12T18:15:34 IST" duration-ms="4108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="check_navigate_QAFOXCreateAccountPage()[pri:1, instance:qafox_pages.QAFOX_CreateAccount_TestCase@2a265ea9]" started-at="2023-07-12T11:40:46 IST" name="check_navigate_QAFOXCreateAccountPage" description="Test Case:Validate Navigate to QAFOX Create Account page" finished-at="2023-07-12T11:40:46 IST" duration-ms="25" status="PASS">
+        <test-method signature="check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:34 IST" name="check_navigate_QAFOXRegisterAccountPage" description="Test Case:Validate Navigate to QAFOX Register Account page" finished-at="2023-07-12T18:15:34 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check_navigate_QAFOXCreateAccountPage -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@2a265ea9]" started-at="2023-07-12T11:40:46 IST" name="close_browserr" finished-at="2023-07-12T11:40:47 IST" duration-ms="184" status="PASS">
+        </test-method> <!-- check_navigate_QAFOXRegisterAccountPage -->
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:34 IST" name="close_browserr" finished-at="2023-07-12T18:15:34 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browserr -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@2a265ea9]" started-at="2023-07-12T11:40:47 IST" name="launch_browser" finished-at="2023-07-12T11:40:51 IST" duration-ms="4011" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:34 IST" name="launch_browser" finished-at="2023-07-12T18:15:37 IST" duration-ms="2900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="check_createaccountwith_validCredentials()[pri:2, instance:qafox_pages.QAFOX_CreateAccount_TestCase@2a265ea9]" started-at="2023-07-12T11:40:51 IST" name="check_createaccountwith_validCredentials" description="Test Case:Validate Create Account with valid data" finished-at="2023-07-12T11:40:52 IST" duration-ms="1014" status="PASS">
+        <test-method signature="check_registeraccountwith_validCredentials()[pri:2, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:37 IST" name="check_registeraccountwith_validCredentials" description="Test Case:Validate Create Account with valid Credentials" finished-at="2023-07-12T18:15:38 IST" duration-ms="1038" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check_createaccountwith_validCredentials -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_pages.QAFOX_CreateAccount_TestCase@2a265ea9]" started-at="2023-07-12T11:40:52 IST" name="close_browserr" finished-at="2023-07-12T11:40:52 IST" duration-ms="130" status="PASS">
+        </test-method> <!-- check_registeraccountwith_validCredentials -->
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:38 IST" name="close_browserr" finished-at="2023-07-12T18:15:39 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browserr -->
-      </class> <!-- qafox_pages.QAFOX_CreateAccount_TestCase -->
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:39 IST" name="launch_browser" finished-at="2023-07-12T18:15:41 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="validate_registerAccount_blankOne_mandatoryField()[pri:3, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:41 IST" name="validate_registerAccount_blankOne_mandatoryField" description="TestCase:Validate Register Account with blank one mandatory field" finished-at="2023-07-12T18:15:43 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_registerAccount_blankOne_mandatoryField -->
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:43 IST" name="close_browserr" finished-at="2023-07-12T18:15:43 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browserr -->
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:43 IST" name="launch_browser" finished-at="2023-07-12T18:15:45 IST" duration-ms="2581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="validate_RegisterAccount_withoutPrivacyPolicy()[pri:4, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:45 IST" name="validate_RegisterAccount_withoutPrivacyPolicy" description="Test Case:Validate Register Account with fill all fields without privacy policy" finished-at="2023-07-12T18:15:47 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_RegisterAccount_withoutPrivacyPolicy -->
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T18:15:47 IST" name="close_browserr" finished-at="2023-07-12T18:15:47 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browserr -->
+      </class> <!-- qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

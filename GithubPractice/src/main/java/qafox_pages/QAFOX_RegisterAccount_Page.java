@@ -5,7 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
+public class QAFOX_RegisterAccount_Page extends QAF_Common_Functions
 {
 	private static By firstname_xpath=By.xpath("//input[@name='firstname']");
 	private static By lastname_xpath=By.xpath("//input[@name='lastname']");
@@ -17,7 +17,10 @@ public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
 	private static By navbar_tabs_xpath=By.xpath("//div[@class='collapse navbar-collapse navbar-ex1-collapse']//ul/li/a");
     private static By components_tab_xpath=By.xpath("//a[@class='dropdown-toggle' and text()='Components']");
 	private static By subscribeoption_yes_xpath=By.xpath("//label[@class='radio-inline']//input[@name='newsletter' and @value='1']");
-    
+    private static By blank_mfield_errormsg_xpath=By.xpath("//div[text()='Last Name must be between 1 and 32 characters!']");
+	private static By continue_button_xpath=By.xpath("//input[@class='btn btn-primary']");
+	private static By privacy_errormsg_xpath=By.xpath("//div[text()='Warning: You must agree to the Privacy Policy!']");
+	
 	public static WebElement firstname_inputbox()
 	{
 		WebElement firstname=driver.findElement(firstname_xpath);
@@ -124,6 +127,25 @@ public class QAFOX_CreateAccount_Page extends QAF_Common_Functions
 	public static void click_yesoption()
 	{
 		subscribeoption_yes().click();
+	}
+	public static WebElement blankfield_errormsg()
+	{
+		WebElement msg=driver.findElement(blank_mfield_errormsg_xpath);
+		return msg;
+	}
+	public static WebElement continue_button()
+	{
+		WebElement btn=driver.findElement(continue_button_xpath);
+		return btn;
+	}
+	public static void click_continue_button()
+	{
+		continue_button().click();
+	}
+	public static WebElement privacyPolicy_errormsg()
+	{
+		WebElement msg=driver.findElement(privacy_errormsg_xpath);
+		return msg;
 	}
 	
 
