@@ -1,21 +1,14 @@
 package selenium_Practice;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class MouseOver_Demo 
+public class MouseOver_Demo extends ActionDemo_Driver
 {
-	public static void main(String[] args)
+	public static void mouseover_demo()
 	{
-		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.orangehrm.com/");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.manage().window().maximize();
+		open_browser("https://www.orangehrm.com/");
 		
 		By company_link_xpath=By.xpath("//a[text()='Company']");
 		WebElement company_link=driver.findElement(company_link_xpath);
@@ -28,7 +21,7 @@ public class MouseOver_Demo
      act.moveToElement(company_link).moveToElement(pressReleases_link).perform();
             pressReleases_link.click(); 
             
-            driver.close();
+          close_browser();
 		
 	}
 
