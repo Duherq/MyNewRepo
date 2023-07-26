@@ -15,3 +15,43 @@
 2023-07-26 11:07:58,908 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\GitHub\MyNewRepo\GithubPractice\src\main\resources
 2023-07-26 11:07:58,911 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-07-26 11:07:58,912 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\GitHub\MyNewRepo\GithubPractice\src\test\resources
+2023-07-26 11:10:16,371 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:10:16,373 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\GitHub\MyNewRepo\GithubPractice\src\main\resources
+2023-07-26 11:10:16,376 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:10:16,378 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\GitHub\MyNewRepo\GithubPractice\src\test\resources
+2023-07-26 11:11:00,776 [Worker-10: Creating project "Cucumber_Project"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:Cucumber_Project:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\Cucumber_Project\pom.xml.
+2023-07-26 11:11:00,818 [Worker-10: Creating project "Cucumber_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Cucumber_Project/src/main/java
+2023-07-26 11:11:00,818 [Worker-10: Creating project "Cucumber_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Cucumber_Project/src/main/resources
+2023-07-26 11:11:00,819 [Worker-10: Creating project "Cucumber_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Cucumber_Project/src/test/java
+2023-07-26 11:11:00,819 [Worker-10: Creating project "Cucumber_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Cucumber_Project/src/test/resources
+2023-07-26 11:11:01,149 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:11:01,164 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:11:01,166 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:11:01,167 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:11:35,615 [Worker-10: Creating project "PlayWright_Project"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:PlayWright_Project:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\PlayWright_Project\pom.xml.
+2023-07-26 11:11:35,659 [Worker-10: Creating project "PlayWright_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlayWright_Project/src/main/java
+2023-07-26 11:11:35,660 [Worker-10: Creating project "PlayWright_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlayWright_Project/src/main/resources
+2023-07-26 11:11:35,660 [Worker-10: Creating project "PlayWright_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlayWright_Project/src/test/java
+2023-07-26 11:11:35,661 [Worker-10: Creating project "PlayWright_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlayWright_Project/src/test/resources
+2023-07-26 11:11:36,022 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:11:36,023 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:11:36,026 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:11:36,027 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:18:54,133 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:PlayWright_Project:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\PlayWright_Project\pom.xml.
+2023-07-26 11:18:54,209 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:18:54,213 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:18:54,374 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-07-26 11:18:54,422 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:PlayWright_Project:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\PlayWright_Project\pom.xml.
+2023-07-26 11:18:54,494 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlayWright_Project/src/main/java
+2023-07-26 11:18:54,494 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlayWright_Project/src/main/resources
+2023-07-26 11:18:54,499 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlayWright_Project/src/test/java
+2023-07-26 11:18:54,500 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlayWright_Project/src/test/resources
+2023-07-26 11:18:54,624 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-07-26 11:18:55,364 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:18:55,367 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:19:32,150 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:19:32,154 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:29:53,646 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:29:53,649 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:30:54,042 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-26 11:30:54,044 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
