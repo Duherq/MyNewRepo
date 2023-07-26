@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qafox_pages.QAFOX_CreateAccount_TestCase">
+      <class name="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase">
         <methods>
           <include name="launch_browser"/>
-          <include name="check_createaccountwith_validCredentials"/>
+          <include name="close_browserr"/>
+          <include name="check_registeraccountwith_validCredentials"/>
         </methods>
-      </class> <!-- qafox_pages.QAFOX_CreateAccount_TestCase -->
+      </class> <!-- qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

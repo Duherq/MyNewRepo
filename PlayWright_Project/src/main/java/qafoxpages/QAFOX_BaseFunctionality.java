@@ -16,7 +16,7 @@ public class QAFOX_BaseFunctionality
 		page=browser.newPage();
 		
 		page.navigate("https://tutorialsninja.com/demo/index.php?route=account/register");
-		page.wait(5000);
+		
 	}
 	public static void close_browser()
 	{

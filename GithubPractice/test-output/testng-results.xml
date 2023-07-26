@@ -1,104 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-12T21:14:08 IST" name="Default suite" finished-at="2023-07-12T21:14:27 IST" duration-ms="18569">
+  <suite started-at="2023-07-26T14:38:35 IST" name="Default suite" finished-at="2023-07-26T14:38:44 IST" duration-ms="8798">
     <groups>
       <group name="Register Account">
-        <method signature="QAFOX_RegisterAccount_TestCase.check_registeraccountwith_validCredentials()[pri:2, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" name="check_registeraccountwith_validCredentials" class="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase"/>
-        <method signature="QAFOX_RegisterAccount_TestCase.validate_RegisterAccount_withoutPrivacyPolicy()[pri:4, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" name="validate_RegisterAccount_withoutPrivacyPolicy" class="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase"/>
+        <method signature="QAFOX_RegisterAccount_TestCase.check_registeraccountwith_validCredentials()[pri:2, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@2a265ea9]" name="check_registeraccountwith_validCredentials" class="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase"/>
       </group> <!-- Register Account -->
-      <group name="Register account">
-        <method signature="QAFOX_RegisterAccount_TestCase.validate_registerAccount_blankOne_mandatoryField()[pri:3, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" name="validate_registerAccount_blankOne_mandatoryField" class="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase"/>
-      </group> <!-- Register account -->
     </groups>
-    <test started-at="2023-07-12T21:14:08 IST" name="Default test" finished-at="2023-07-12T21:14:27 IST" duration-ms="18569">
+    <test started-at="2023-07-26T14:38:35 IST" name="Default test" finished-at="2023-07-26T14:38:44 IST" duration-ms="8798">
       <class name="qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:08 IST" name="launch_browser" finished-at="2023-07-12T21:14:13 IST" duration-ms="4867" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@2a265ea9]" started-at="2023-07-26T14:38:35 IST" name="launch_browser" finished-at="2023-07-26T14:38:40 IST" duration-ms="4328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:13 IST" name="check_navigate_QAFOXRegisterAccountPage" description="Test Case:Validate Navigate to QAFOX Register Account page" finished-at="2023-07-12T21:14:13 IST" duration-ms="36" status="PASS">
+        <test-method signature="check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@2a265ea9]" started-at="2023-07-26T14:38:40 IST" name="check_navigate_QAFOXRegisterAccountPage" description="Test Case:Validate Navigate to QAFOX Register Account page" finished-at="2023-07-26T14:38:40 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_navigate_QAFOXRegisterAccountPage -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:13 IST" name="close_browserr" finished-at="2023-07-12T21:14:13 IST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@2a265ea9]" started-at="2023-07-26T14:38:40 IST" name="close_browserr" finished-at="2023-07-26T14:38:40 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browserr -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:14 IST" name="launch_browser" finished-at="2023-07-12T21:14:16 IST" duration-ms="2974" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@2a265ea9]" started-at="2023-07-26T14:38:40 IST" name="launch_browser" finished-at="2023-07-26T14:38:43 IST" duration-ms="3243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="check_registeraccountwith_validCredentials()[pri:2, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:16 IST" name="check_registeraccountwith_validCredentials" description="Test Case:Validate Create Account with valid Credentials" finished-at="2023-07-12T21:14:18 IST" duration-ms="1034" status="PASS">
+        <test-method signature="check_registeraccountwith_validCredentials()[pri:2, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@2a265ea9]" started-at="2023-07-26T14:38:43 IST" name="check_registeraccountwith_validCredentials" description="Test Case:Validate Create Account with valid Credentials" finished-at="2023-07-26T14:38:44 IST" duration-ms="967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_registeraccountwith_validCredentials -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:18 IST" name="close_browserr" finished-at="2023-07-12T21:14:18 IST" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browserr -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:18 IST" name="launch_browser" finished-at="2023-07-12T21:14:21 IST" duration-ms="3142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="validate_registerAccount_blankOne_mandatoryField()[pri:3, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:21 IST" name="validate_registerAccount_blankOne_mandatoryField" description="TestCase:Validate Register Account with blank one mandatory field" finished-at="2023-07-12T21:14:22 IST" duration-ms="1233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_registerAccount_blankOne_mandatoryField -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:22 IST" name="close_browserr" finished-at="2023-07-12T21:14:22 IST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browserr -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:22 IST" name="launch_browser" finished-at="2023-07-12T21:14:25 IST" duration-ms="3279" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="validate_RegisterAccount_withoutPrivacyPolicy()[pri:4, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:25 IST" name="validate_RegisterAccount_withoutPrivacyPolicy" description="Test Case:Validate Register Account with fill all fields without privacy policy" finished-at="2023-07-12T21:14:27 IST" duration-ms="1457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_RegisterAccount_withoutPrivacyPolicy -->
-        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@6892b3b6]" started-at="2023-07-12T21:14:27 IST" name="close_browserr" finished-at="2023-07-12T21:14:27 IST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="close_browserr()[pri:0, instance:qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase@2a265ea9]" started-at="2023-07-26T14:38:44 IST" name="close_browserr" finished-at="2023-07-26T14:38:44 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browserr -->
       </class> <!-- qafox_CreateAccount_TestCase_Main.QAFOX_RegisterAccount_TestCase -->
-
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2023-07-12T21:03:58 IST" name="Default suite" finished-at="2023-07-12T21:04:18 IST" duration-ms="19863">
-    <groups>
-    </groups>
-    <test started-at="2023-07-12T21:03:58 IST" name="Default test" finished-at="2023-07-12T21:04:18 IST" duration-ms="19863">
-      <class name="orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase">
-        <test-method is-config="true" signature="open_browser()[pri:0, instance:orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase@2a7f1f10]" started-at="2023-07-12T21:03:58 IST" name="open_browser" finished-at="2023-07-12T21:04:08 IST" duration-ms="10044" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open_browser -->
-        <test-method signature="check_navigate_orangeHRM_loginPage()[pri:1, instance:orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase@2a7f1f10]" started-at="2023-07-12T21:04:08 IST" name="check_navigate_orangeHRM_loginPage" description="Test Case:Validate Navigate to OrangeHRM LoginPage" finished-at="2023-07-12T21:04:08 IST" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_navigate_orangeHRM_loginPage -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase@2a7f1f10]" started-at="2023-07-12T21:04:08 IST" name="close_browser" finished-at="2023-07-12T21:04:08 IST" duration-ms="138" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browser -->
-        <test-method is-config="true" signature="open_browser()[pri:0, instance:orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase@2a7f1f10]" started-at="2023-07-12T21:04:08 IST" name="open_browser" finished-at="2023-07-12T21:04:16 IST" duration-ms="7301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open_browser -->
-        <test-method signature="login_With_ValidCredentials()[pri:2, instance:orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase@2a7f1f10]" started-at="2023-07-12T21:04:16 IST" name="login_With_ValidCredentials" description="Test Case:Validate OrangeHRM Login with Valid Credentials" finished-at="2023-07-12T21:04:18 IST" duration-ms="2130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_With_ValidCredentials -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase@2a7f1f10]" started-at="2023-07-12T21:04:18 IST" name="close_browser" finished-at="2023-07-12T21:04:18 IST" duration-ms="159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- orangeHRM_Login_TestCase_Main.OrangeHRM_Login_TestCase -->
-
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
