@@ -5,7 +5,7 @@ import com.microsoft.playwright.Locator;
 public class QAF_RegisterAccount_Page extends QAFOX_BaseFunctionality
 {
 	
-   private static String firstname_xpath="//input[@name='firstname']";
+   private static String firstname_xpath="//input[@id='input-firstname' and @name='firstname']";
    private static String lastname_xpath="//input[@name='lastname']";
    private static String email_xpath="//input[@name='email']";
    private static String telephon_xpath="//input[@name='telephone']";
