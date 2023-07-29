@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class QAFOX_RegisterAccount_Page extends QAFOX_Common_Functions
 {
-	private static By firstname_xpath=By.xpath("//input[@id='input-firstname']");
+	private static By firstname_xpath=By.xpath("//input[@id='input-firstname' and  @name='firstname' and @class='form-control']");
 	private static By lastname_xpath=By.xpath("//input[@name='lastname']");
 	private static By email_xpath=By.xpath("//input[@name='email']");
 	private static By telephon_inputbox_xpath=By.xpath("//input[@name='telephone']");
