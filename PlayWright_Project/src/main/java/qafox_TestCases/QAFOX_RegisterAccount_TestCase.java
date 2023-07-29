@@ -113,5 +113,49 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 	    Assert.assertTrue(QAF_RegisterAccount_Page.blankfield_errormsg().isVisible(),"Expected Error message should not be displayed");
 		
 	}
+   @Test(priority=4,description="Test Case:Validate Register Account with fill all fields without privacy policy\",groups=\"Register Account\"")
+   public void validate_RegisterAccount_WithoutPirvacyPolicy() throws Exception
+   {
+	   String actual_firstname="Duher";
+		String actual_lastname="Quazi";
+		String actual_email="duher123@gmail.com";
+		String actual_phoneNo="9999999999";
+		String actual_password="Duher@123";
+		
+		check_navigate_QAFOXRegisterAccountPage();
+		
+		QAF_RegisterAccount_Page.click_firstname_inputbox();
+		QAF_RegisterAccount_Page.enter_firstname("Duher");
+	    Assert.assertEquals(actual_firstname,QAF_RegisterAccount_Page.firstname_inputbox().inputValue(),"Expected firstname should be entered successfully");
+	    
+	    QAF_RegisterAccount_Page.click_lastname_inputbox();
+	    QAF_RegisterAccount_Page.enter_lastname("Quazi");
+	    Assert.assertEquals(actual_lastname, QAF_RegisterAccount_Page.lastname_inputbox().inputValue(),"Expected lastname should not be entered ");
+	    
+	    QAF_RegisterAccount_Page.click_email_inputbox();
+	    QAF_RegisterAccount_Page.enter_email("duher123@gmail.com");
+	    Assert.assertEquals(actual_email, QAF_RegisterAccount_Page.email_inputbox().inputValue(),"Expected lastname should not be entered successfully");
+	    
+	    QAF_RegisterAccount_Page.click_telephon_inputbox();
+	    QAF_RegisterAccount_Page.enter_telephonNo("9999999999");
+	    Assert.assertEquals(actual_phoneNo, QAF_RegisterAccount_Page.telephon_inputbox().inputValue(),"Expected phon number should not be entered ");
+	
+	    QAF_RegisterAccount_Page.click_password_inputbox();
+	    QAF_RegisterAccount_Page.enter_password("Duher@123");
+	    Assert.assertEquals(actual_password,QAF_RegisterAccount_Page.password_inputbox().inputValue(),"Expected password should not be entered ");
+
+	    QAF_RegisterAccount_Page.click_confirmPassword_inputbox();
+	    QAF_RegisterAccount_Page.enter_confirmPassword("Duher@123");
+	    Assert.assertEquals(actual_password,QAF_RegisterAccount_Page.confirmPassword_inputbox().inputValue(),"Expected confirm password should not be entered");
+	    
+	    
+	    Assert.assertFalse(QAF_RegisterAccount_Page.subscribeoption_yes().isChecked(),"Yes Option is selected it is not expected");
+	   
+	    QAF_RegisterAccount_Page.click_continue_button();
+	   Assert.assertTrue(QAF_RegisterAccount_Page.privacyPolicy_errormsg().isVisible(), "Expected Error Message Should not be displayed");
+		
+
+
+   }
 
 }
