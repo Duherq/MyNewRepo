@@ -2,11 +2,16 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfo"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.Playwright"/>
-    <fullyQualifiedTypeName name="com.microsoft.playwright.Page"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.BrowserType.LaunchOptions"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.BrowserType"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.Browser"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.BrowserContext"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.Browser.NewContextOptions"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.Locator"/>
+    <fullyQualifiedTypeName name="com.microsoft.playwright.Page"/>
+    <fullyQualifiedTypeName name="qafoxpages.QAFOX_BaseFunctionality"/>
+    <fullyQualifiedTypeName name="qafoxpages.QAF_RegisterAccount_Page"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+    <fullyQualifiedTypeName name="qafox_pages.QAFOX_Common_Functions"/>
 </qualifiedTypeNameHistroy>
