@@ -5,8 +5,8 @@
     <classes>
       <class name="qafox_TestCases.QAFOX_RegisterAccount_TestCase">
         <methods>
+          <include name="validate_registerAccount_blankOne_mandatoryField"/>
           <include name="launch_browser"/>
-          <include name="check_registeraccountwith_validCredentials"/>
           <include name="Close_browser"/>
         </methods>
       </class> <!-- qafox_TestCases.QAFOX_RegisterAccount_TestCase -->
