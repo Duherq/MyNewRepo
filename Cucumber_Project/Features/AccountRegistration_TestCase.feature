@@ -17,7 +17,7 @@ Given Password "Duher123"
 Then Password entered successfully
 Given Confirm password "Duher123"
 Then Confirm Password entered successfully
-And Check subscribe radio button yes option is not checked
+And Click subscribe radio button no option 
 Then Expected radio button should be checked
 And Click privacy policy checkbox
 Then Privacy policy checkbox should be displayed Checked
@@ -35,7 +35,7 @@ Given Password "Duher123"
 Then Password entered successfully
 Given Confirm password "Duher123"
 Then Confirm Password entered successfully
-And Check subscribe radio button yes option is not checked
+And Click subscribe radio button no option 
 Then Expected radio button should be checked
 And Click privacy policy checkbox
 Then Privacy policy checkbox should be displayed Checked
