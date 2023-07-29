@@ -4,6 +4,7 @@ import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import qafox_pages.QAFOX_Common_Functions;
 import qafox_pages.QAFOX_RegisterAccount_Page;
 
@@ -136,8 +137,7 @@ public class Account_RegistrationTestCase extends QAFOX_Common_Functions
 	    // Write code here that turns the phrase above into concrete actions
 	   
 	}
-
-	@Then("Click subscribe radio button no option")
+	@When("Click subscribe radio button no option")
 	public void click_subscribe_radio_button_no_option()
 	{
 	    // Write code here that turns the phrase above into concrete actions
@@ -149,33 +149,30 @@ public class Account_RegistrationTestCase extends QAFOX_Common_Functions
 	public void expected_radio_button_should_be_checked() 
 	{
 	    // Write code here that turns the phrase above into concrete actions
-	
+	    
 	}
 
-	@Then("Click privacy policy checkbox")
+	@When("Click privacy policy checkbox")
 	public void click_privacy_policy_checkbox() 
 	{
 	    // Write code here that turns the phrase above into concrete actions
-		 QAFOX_RegisterAccount_Page.click_privacy_policy_checkbox();
-		 Assert.assertTrue(QAFOX_RegisterAccount_Page.privacy_policy_checkbox().isSelected(), "Privacy checkbox is not clicked");
-		
+		QAFOX_RegisterAccount_Page.click_privacy_policy_checkbox();
+	    Assert.assertTrue(QAFOX_RegisterAccount_Page.privacy_policy_checkbox().isSelected(), "Privacy checkbox is not clicked");
 	}
 
 	@Then("Privacy policy checkbox should be displayed Checked")
 	public void privacy_policy_checkbox_should_be_displayed_checked() 
 	{
 	    // Write code here that turns the phrase above into concrete actions
-	    
 	}
 
-	@Then("check lastname inputbox")
-	public void check_lastname_inputbox() 
+	@When("check lastname inputbox")
+	public void check_lastname_inputbox()
 	{
-		 String empty=QAFOX_RegisterAccount_Page.lastname_inputbox().getAttribute("value");
-		 Assert.assertTrue(empty.isEmpty(),"Lastname inputbox should not be empty");
-		    
+	    // Write code here that turns the phrase above into concrete actions
+		String empty=QAFOX_RegisterAccount_Page.lastname_inputbox().getAttribute("value");
+	    Assert.assertTrue(empty.isEmpty(),"Lastname input field should not empty");
 	}
-
 	@Then("Lastname inputbox should be displayed blank\\(empty)")
 	public void lastname_inputbox_should_be_displayed_blank_empty() 
 	{
@@ -183,19 +180,48 @@ public class Account_RegistrationTestCase extends QAFOX_Common_Functions
 	    
 	}
 
-	@Then("Click Continue button")
+	@When("Click Continue button")
 	public void click_continue_button() 
 	{
 	    // Write code here that turns the phrase above into concrete actions
-		QAFOX_RegisterAccount_Page.click_continue_button();
-	    Assert.assertTrue(QAFOX_RegisterAccount_Page.blankfield_errormsg().isDisplayed(),"Expected Error message should not be displayed");
-		
-	}
+		   QAFOX_RegisterAccount_Page.click_continue_button();
 
+	}
+	
 	@Then("Expected Error message should be displayed")
-	public void expected_error_message_should_be_displayed() 
+	public void expected_error_message_should_be_displayed()
 	{
+	    // Write code here that turns the phrase above into concrete actions
+	   Assert.assertTrue(QAFOX_RegisterAccount_Page.blankfield_errormsg().isDisplayed(),"Expected Error message should not be displayed");
+
+	}
+ 
+	@When("Do not click privacy policy checkbox")
+	public void do_not_click_privacy_policy_checkbox()
+	{
+	    // Write code here that turns the phrase above into concrete actions
+	    Assert.assertFalse(QAFOX_RegisterAccount_Page.privacy_policy_checkbox().isSelected(), "Privacy Checkbox is Checked");
+
+	}
+	@Then("Privacy policy checkbox should be displayed unchecked")
+	public void privacy_policy_checkbox_should_be_displayed_unchecked() {
 	    // Write code here that turns the phrase above into concrete actions
 	    
 	}
+
+	
+
+	@Then("One Error message should be displayed \\(You must agree to the Privacy Policy!)")
+	public void one_error_message_should_be_displayed_you_must_agree_to_the_privacy_policy()
+	{
+	    // Write code here that turns the phrase above into concrete actions
+		   Assert.assertTrue(QAFOX_RegisterAccount_Page.privacyPolicy_errormsg().isDisplayed(), "Expected Error Message Should not be displayed");
+
+	}
+	
+
+	
+
+
+	
 }
