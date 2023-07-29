@@ -125,7 +125,7 @@ public class Account_RegistrationTestCase extends QAFOX_Common_Functions
 	    // Write code here that turns the phrase above into concrete actions
 		String actual_password="Duher123";
 		QAFOX_RegisterAccount_Page.click_confirmPassword_inputbox();
-	    QAFOX_RegisterAccount_Page.enter_confirmPassword("Duher@123");
+	    QAFOX_RegisterAccount_Page.enter_confirmPassword(string);
 	    Assert.assertEquals(actual_password,QAFOX_RegisterAccount_Page.confirmPassword_inputbox().getAttribute("value"),"Expected confirm password should not be entered");
 	    
 	}
