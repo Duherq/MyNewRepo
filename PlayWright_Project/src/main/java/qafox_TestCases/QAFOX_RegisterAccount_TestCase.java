@@ -154,8 +154,6 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 	    QAF_RegisterAccount_Page.click_continue_button();
 	   Assert.assertTrue(QAF_RegisterAccount_Page.privacyPolicy_errormsg().isVisible(), "Expected Error Message Should not be displayed");
 		
-
-
    }
 
 }

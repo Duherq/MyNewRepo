@@ -14,4 +14,6 @@
     <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
     <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
     <fullyQualifiedTypeName name="qafox_pages.QAFOX_Common_Functions"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
 </qualifiedTypeNameHistroy>
