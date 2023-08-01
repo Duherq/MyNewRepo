@@ -1,7 +1,10 @@
 package qafox_TestCases;
 
+import java.lang.reflect.Method;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import qafoxpages.QAFOX_BaseFunctionality;
@@ -10,9 +13,17 @@ import qafoxpages.QAF_RegisterAccount_Page;
 public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 {
 	@BeforeMethod
-	public void launch_browser() throws Exception
+	public void launch_browser(Method m) throws Exception
 	{
 		open_Browser();
+		tr=et.createNode(m.getName());
+		
+	}
+	
+	@BeforeClass
+	public void bc()
+	{
+		et=er.createTest("QAFOX_RegisterAccount_TestCase");
 	}
 	
 	@AfterMethod
@@ -34,6 +45,7 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 		String actual_url="https://tutorialsninja.com/demo/index.php?route=account/register";
 		String expected_url=page.url();
 		Assert.assertEquals(actual_url, expected_url,"Successfully Navigate to QAFOX Create Account page");	
+	    tr.info("Successfully Navigate to QAFOX Register Account Page");
 	}
 	@Test(priority=2,description="Test Case:Validate Create Account with valid Credentials",groups="Register Account")
 	public void check_registeraccountwith_validCredentials() throws Exception
@@ -49,32 +61,39 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 		QAF_RegisterAccount_Page.click_firstname_inputbox();
 		QAF_RegisterAccount_Page.enter_firstname("Duher");
 	    Assert.assertEquals(actual_firstname,QAF_RegisterAccount_Page.firstname_inputbox().inputValue(),"Expected firstname should be entered successfully");
-	    
+	    tr.info("FirstName Enter successfully");
 	    
 	    QAF_RegisterAccount_Page.click_lastname_inputbox();
 	    QAF_RegisterAccount_Page.enter_lastname("Quazi");
 	    Assert.assertEquals(actual_lastname, QAF_RegisterAccount_Page.lastname_inputbox().inputValue(),"Expected lastname should not be entered ");
+	    tr.info("LastName Enter successfully");
 	    
 	    QAF_RegisterAccount_Page.click_email_inputbox();
 	    QAF_RegisterAccount_Page.enter_email("duher123@gmail.com");
 	    Assert.assertEquals(actual_email, QAF_RegisterAccount_Page.email_inputbox().inputValue(),"Expected lastname should not be entered successfully");
+	    tr.info("email Enter successfully");
 	    
 	    QAF_RegisterAccount_Page.click_telephon_inputbox();
 	    QAF_RegisterAccount_Page.enter_telephonNo("9999999999");
 	    Assert.assertEquals(actual_phoneNo, QAF_RegisterAccount_Page.telephon_inputbox().inputValue(),"Expected phon number should not be entered ");
-	
+	    tr.info("Phone No. Enter successfully");
+	    
 	    QAF_RegisterAccount_Page.click_password_inputbox();
 	    QAF_RegisterAccount_Page.enter_password("Duher@123");
 	    Assert.assertEquals(actual_password,QAF_RegisterAccount_Page.password_inputbox().inputValue(),"Expected password should not be entered ");
-
+	    tr.info("Password Enter successfully");
+	    
 	    QAF_RegisterAccount_Page.click_confirmPassword_inputbox();
 	    QAF_RegisterAccount_Page.enter_confirmPassword("Duher@123");
 	    Assert.assertEquals(actual_password,QAF_RegisterAccount_Page.confirmPassword_inputbox().inputValue(),"Expected confirm password should not be entered");
+	    tr.info("Confirm Password Enter successfully");
 	    
 	    Assert.assertFalse(QAF_RegisterAccount_Page.subscribeoption_yes().isChecked(),"Yes Option is selected it is not expected");
+	    tr.info("Subscription option yes is not checked");
 	    
 	    QAF_RegisterAccount_Page.click_privacy_policy_checkbox();
 	    Assert.assertTrue(QAF_RegisterAccount_Page.privacy_policy_checkbox().isChecked(), "Privacy checkbox is not clicked");
+	    tr.info("Privacy Policy Checkbox is Checked");
 	}
 	
 	@Test(priority=3,description="TestCase:Validate Register Account with blank one mandatory field",groups="Register Account")
@@ -90,34 +109,42 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 		QAF_RegisterAccount_Page.click_firstname_inputbox();
 		QAF_RegisterAccount_Page.enter_firstname("Duher");
 	    Assert.assertEquals(actual_firstname,QAF_RegisterAccount_Page.firstname_inputbox().inputValue(),"Expected firstname should be entered successfully");
-	   
+	    tr.info("FirstName Enter successfully");
+	    
 	    String empty=QAF_RegisterAccount_Page.lastname_inputbox().inputValue();
 	    Assert.assertTrue(empty.isEmpty(), actual_password);
+	    tr.info("Last Name inputbox shows Empty");
 	    
 	    QAF_RegisterAccount_Page.click_email_inputbox();
 	    QAF_RegisterAccount_Page.enter_email("duher123@gmail.com");
 	    Assert.assertEquals(actual_email, QAF_RegisterAccount_Page.email_inputbox().inputValue(),"Expected lastname should not be entered successfully");
+	    tr.info("email Enter successfully");
 	    
 	    QAF_RegisterAccount_Page.click_telephon_inputbox();
 	    QAF_RegisterAccount_Page.enter_telephonNo("9999999999");
 	    Assert.assertEquals(actual_phoneNo, QAF_RegisterAccount_Page.telephon_inputbox().inputValue(),"Expected phon number should not be entered ");
-	
+	    tr.info("Phone No. Enter successfully");
+	    
 	    QAF_RegisterAccount_Page.click_password_inputbox();
 	    QAF_RegisterAccount_Page.enter_password("Duher@123");
 	    Assert.assertEquals(actual_password,QAF_RegisterAccount_Page.password_inputbox().inputValue(),"Expected password should not be entered ");
-
+	    tr.info("Password Enter successfully");
+	    
 	    QAF_RegisterAccount_Page.click_confirmPassword_inputbox();
 	    QAF_RegisterAccount_Page.enter_confirmPassword("Duher@123");
 	    Assert.assertEquals(actual_password,QAF_RegisterAccount_Page.confirmPassword_inputbox().inputValue(),"Expected confirm password should not be entered");
+	    tr.info("Confirm Password Enter successfully");
 	    
 	    Assert.assertFalse(QAF_RegisterAccount_Page.subscribeoption_yes().isChecked(),"Yes Option is selected it is not expected");
+	    tr.info("Subscription option yes is not checked");
 	    
 	    QAF_RegisterAccount_Page.click_privacy_policy_checkbox();
 	    Assert.assertTrue(QAF_RegisterAccount_Page.privacy_policy_checkbox().isChecked(), "Privacy checkbox is not clicked");
+	    tr.info("Privacy Policy checkbox is checked");
 	    
 	    QAF_RegisterAccount_Page.click_continue_button();
 	    Assert.assertTrue(QAF_RegisterAccount_Page.blankfield_errormsg().isVisible(),"Expected Error message should not be displayed");
-		
+	    tr.info("Error message displayed");
 	}
    @Test(priority=4,description="Test Case:Validate Register Account with fill all fields without privacy policy",groups="Register Account")
    public void validate_RegisterAccount_WithoutPirvacyPolicy() throws Exception
