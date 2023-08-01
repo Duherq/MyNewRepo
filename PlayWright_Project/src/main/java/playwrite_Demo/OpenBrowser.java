@@ -14,7 +14,6 @@ public class OpenBrowser
 		Page page=b.newPage();
 		
 		page.navigate("https://www.facebook.com");
-		
 		page.close();
 	}
 
