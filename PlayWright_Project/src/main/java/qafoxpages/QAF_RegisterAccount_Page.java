@@ -1,5 +1,7 @@
 package qafoxpages;
 
+import java.util.List;
+
 import com.microsoft.playwright.Locator;
 
 public class QAF_RegisterAccount_Page extends QAFOX_BaseFunctionality
@@ -17,7 +19,8 @@ public class QAF_RegisterAccount_Page extends QAFOX_BaseFunctionality
    private static String blank_mfield_errormsg_xpath="//div[text()='Last Name must be between 1 and 32 characters!']";
    private static String continue_button_xpath="//input[@class='btn btn-primary']";
    private static String privacy_error_msg_xpath="//div[text()='Warning: You must agree to the Privacy Policy!']";
-
+   private static String login_button_xpath="//div[@class='list-group']//a[text()='Login']";
+   
    public static Locator firstname_inputbox()
    {
 	   return page.locator(firstname_xpath);
@@ -134,5 +137,11 @@ public class QAF_RegisterAccount_Page extends QAFOX_BaseFunctionality
 	{
 		return page.locator(privacy_error_msg_xpath);
 	}
+	public static Locator click_login_button()
+	{
+		return page.locator(login_button_xpath);
+	}
+	
+	
 
 }

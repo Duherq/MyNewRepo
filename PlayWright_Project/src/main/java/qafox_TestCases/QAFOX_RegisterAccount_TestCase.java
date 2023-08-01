@@ -20,9 +20,15 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 	{
 		close_browser();
 	}
+	
+	String actual_firstname;
+	String actual_lastname;
+	String actual_email;
+	String actual_phoneNo;
+	String actual_password;
 
 	
-	@Test(priority=1,description="Test Case:Validate Navigate to QAFOX Register Account page")
+	@Test(priority=1,description="Test Case:Validate Navigate to QAFOX Register Account page",groups="Register Account")
 	public void check_navigate_QAFOXRegisterAccountPage() throws Exception
 	{
 		String actual_url="https://tutorialsninja.com/demo/index.php?route=account/register";
@@ -32,11 +38,11 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 	@Test(priority=2,description="Test Case:Validate Create Account with valid Credentials",groups="Register Account")
 	public void check_registeraccountwith_validCredentials() throws Exception
 	{
-		String actual_firstname="Duher";
-		String actual_lastname="Quazi";
-		String actual_email="duher123@gmail.com";
-		String actual_phoneNo="9999999999";
-		String actual_password="Duher@123";
+		 actual_firstname="Duher";
+		 actual_lastname="Quazi";
+		 actual_email="duher123@gmail.com";
+		 actual_phoneNo="9999999999";
+		 actual_password="Duher@123";
 
 		
 		check_navigate_QAFOXRegisterAccountPage();
@@ -71,13 +77,13 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 	    Assert.assertTrue(QAF_RegisterAccount_Page.privacy_policy_checkbox().isChecked(), "Privacy checkbox is not clicked");
 	}
 	
-	@Test(priority=3,description="TestCase:Validate Register Account with blank one mandatory field",groups="Register account")
+	@Test(priority=3,description="TestCase:Validate Register Account with blank one mandatory field",groups="Register Account")
 	public void validate_registerAccount_blankOne_mandatoryField() throws Exception
 	{
-		String actual_firstname="Duher";
-		String actual_email="duher123@gmail.com";
-		String actual_phoneNo="9999999999";
-		String actual_password="Duher@123";
+		 actual_firstname="Duher";
+		 actual_email="duher123@gmail.com";
+		 actual_phoneNo="9999999999";
+		 actual_password="Duher@123";
 
 		
 		check_navigate_QAFOXRegisterAccountPage();
@@ -113,14 +119,14 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 	    Assert.assertTrue(QAF_RegisterAccount_Page.blankfield_errormsg().isVisible(),"Expected Error message should not be displayed");
 		
 	}
-   @Test(priority=4,description="Test Case:Validate Register Account with fill all fields without privacy policy\",groups=\"Register Account\"")
+   @Test(priority=4,description="Test Case:Validate Register Account with fill all fields without privacy policy",groups="Register Account")
    public void validate_RegisterAccount_WithoutPirvacyPolicy() throws Exception
    {
-	   String actual_firstname="Duher";
-		String actual_lastname="Quazi";
-		String actual_email="duher123@gmail.com";
-		String actual_phoneNo="9999999999";
-		String actual_password="Duher@123";
+	    actual_firstname="Duher";
+		actual_lastname="Quazi";
+	    actual_email="duher123@gmail.com";
+		actual_phoneNo="9999999999";
+		actual_password="Duher@123";
 		
 		check_navigate_QAFOXRegisterAccountPage();
 		
@@ -154,8 +160,6 @@ public class QAFOX_RegisterAccount_TestCase extends QAFOX_BaseFunctionality
 	    QAF_RegisterAccount_Page.click_continue_button();
 	   Assert.assertTrue(QAF_RegisterAccount_Page.privacyPolicy_errormsg().isVisible(), "Expected Error Message Should not be displayed");
 		
-
-
    }
 
 }
