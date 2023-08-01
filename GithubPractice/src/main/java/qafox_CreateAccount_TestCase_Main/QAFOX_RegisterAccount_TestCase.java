@@ -148,9 +148,12 @@ public class QAFOX_RegisterAccount_TestCase extends QAF_Common_Functions
 	    QAFOX_RegisterAccount_Page.enter_confirmPassword("Duher@123");
 	    Assert.assertEquals(actual_password,QAFOX_RegisterAccount_Page.confirmPassword_inputbox().getAttribute("value"),"Expected confirm password should not be entered");
 	    
+	    
 	    Assert.assertFalse(QAFOX_RegisterAccount_Page.subscribeoption_yes().isSelected(),"Yes Option is selected it is not expected");
 	   
-	    QAFOX_RegisterAccount_Page.click_continue_button();
+	    Assert.assertFalse(QAFOX_RegisterAccount_Page.privacy_policy_checkbox().isSelected(), "Privacy Checkbox is Checked");
+	    
+	   QAFOX_RegisterAccount_Page.click_continue_button();
 	   Assert.assertTrue(QAFOX_RegisterAccount_Page.privacyPolicy_errormsg().isDisplayed(), "Expected Error Message Should not be displayed");
 		
 	}
