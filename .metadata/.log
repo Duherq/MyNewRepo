@@ -1370,3 +1370,772 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 27
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:35:36.709
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:39:18.137
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:39:18.144
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:39:18.398
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:39:18.398
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:41:38.917
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:41:38.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:58:24.012
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:58:24.015
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:59:20.859
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 12:59:20.862
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2023-08-01 13:35:50.916 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=20.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-01 13:35:52.095
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-01 13:35:53.328
+!MESSAGE Logback config file: C:\GitHub\MyNewRepo\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.200.20230523-2106.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-08-01 13:35:55.324
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-01 13:35:55.324
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-01 13:35:58.945
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sayya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:02:52.214
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:02:52.224
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 14:02:52.719
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54848 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--539170826\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 54848 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--539170826\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:05:50.748
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:05:50.760
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 14:05:51.037
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54859 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-816328553\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 54859 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-816328553\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:05:56.786
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:05:56.788
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:06:39.956
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:06:39.960
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 14:06:43.762
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54863 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-2042431352\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 54863 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-2042431352\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:07:02.382
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:07:02.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:20:38.441
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:20:38.445
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 14:20:44.446
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54914 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--292426953\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 54914 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--292426953\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:20:53.957
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:20:53.963
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:22:28.896
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:22:28.899
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:22:54.596
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:22:54.601
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 14:22:54.787
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54923 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--337306301\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 54923 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--337306301\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:23:06.448
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:23:06.452
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:28:20.863
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:28:20.867
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:31:49.371
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:31:49.379
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:32:49.099
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:32:49.103
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:40:14.466
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:40:14.471
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:44:54.885
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:44:54.890
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:48:18.755
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:48:18.761
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:56:48.349
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 14:56:48.352
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:09:52.289
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:09:52.292
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:10:30.967
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55069 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--2086487004\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55069 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse--2086487004\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:16:51.037
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:16:51.041
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:16:51.198
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55086 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1574952095\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55086 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1574952095\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:17:02.786
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:17:02.791
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:19:28.673
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:19:28.675
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:19:35.924
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:19:35.926
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:19:40.849
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55247 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1648070234\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55247 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1648070234\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:19:53.842
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:19:53.852
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:23:04.556
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:23:04.559
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:23:10.767
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:23:10.769
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:23:17.237
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55258 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1435610576\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55258 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1435610576\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:24:17.226
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:24:17.230
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:24:22.112
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55262 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-953813008\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55262 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-953813008\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:24:52.112
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:24:52.117
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:24:52.289
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55265 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1075424309\testng-customsuite.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55265 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\Users\sayya\AppData\Local\Temp\testng-eclipse-1075424309\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:25:05.429
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:25:05.437
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:36:44.089
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:36:44.092
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:42:48.953
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:42:48.957
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:44:09.634
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:44:09.637
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:44:32.729
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:44:32.733
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:44:56.753
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:44:56.755
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:02.577
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:02.583
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:45:02.717
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55314 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55314 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:10.808
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:10.810
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:50.610
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:50.616
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:57.058
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:45:57.065
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 15:45:57.210
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55319 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55319 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:46:04.553
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:46:04.560
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:53:23.423
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:53:23.426
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:53:34.723
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:53:34.725
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:56:51.061
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 15:56:51.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:10:58.018
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:10:58.020
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:12:00.922
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:12:00.924
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:12:52.873
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:12:52.875
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:13:27.391
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:13:27.395
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:13:36.096
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:13:36.100
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:13:36.287
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55345 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55345 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:13:43.960
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:13:43.968
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:18:52.429
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:18:52.431
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:19:13.902
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:19:13.904
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:19:14.037
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55354 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55354 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:19:51.582
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:19:51.587
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:19:51.723
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55356 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55356 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:22:58.295
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:22:58.302
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:23:04.723
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:23:04.726
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:23:04.866
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55359 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55359 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:30:32.508
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:30:32.515
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:30:36.266
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:30:36.275
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:31:02.668
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:31:02.671
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:31:28.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:31:28.391
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:31:28.518
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55381 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55381 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:31:42.421
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:31:42.429
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:33:05.823
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:33:05.826
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:35:32.400
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:35:32.402
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:35:45.595
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:35:45.599
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:35:45.745
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55389 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55389 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:35:56.606
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:35:56.609
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:40:18.667
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:40:18.670
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:40:23.506
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:40:23.511
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:40:23.622
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55394 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55394 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:41:04.887
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:41:04.890
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:41:13.836
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:41:13.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:41:58.778
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:41:58.782
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:41:58.904
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55400 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55400 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:42:06.270
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:42:06.274
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:42:09.209
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:42:09.212
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 16:42:32.494
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55402 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55402 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:42:40.794
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 16:42:40.797
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:00:17.345
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:00:17.347
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:01:18.087
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:01:18.090
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:01:37.211
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:01:37.213
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:02:38.242
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:02:38.244
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:00.518
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:00.521
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:08.943
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:08.946
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:18.484
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:18.545
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 17:04:18.682
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55425 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55425 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:30.205
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:04:30.206
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:24.735
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:24.739
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:32.102
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:32.104
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 17:05:38.589
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55430 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55430 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:47.567
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:47.572
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:57.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:05:57.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:06:20.274
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:06:20.277
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-08-01 17:06:20.401
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55432 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+java -ea -classpath C:\Users\sayya\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\test-classes:C:\GitHub\MyNewRepo\ExtentReport_Demo\target\classes:C:\Users\sayya\.p2\pool\plugins\org.testng_7.8.0.r202306071539.jar:C:\Users\sayya\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\sayya\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\sayya\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\sayya\.p2\pool\plugins\org.webjars.jquery_3.6.1.jar:C:\Users\sayya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\sayya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\sayya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\sayya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\sayya\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\sayya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\sayya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\sayya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\sayya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\sayya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar org.testng.remote.RemoteTestNG -serport 55432 -protocol json -d C:\GitHub\MyNewRepo\ExtentReport_Demo\test-output C:\GitHub\MyNewRepo\ExtentReport_Demo\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:06:30.739
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-08-01 17:06:30.742
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
