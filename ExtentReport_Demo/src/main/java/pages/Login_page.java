@@ -13,15 +13,7 @@ public class Login_page extends BasePage
 //	private static ExtentTest test;
 //	private static ExtentTest ts;
 	@BeforeClass
-	public void bc()
-	{
-	    BasePage.et=BasePage.er.createTest("Login_Page");
-	}
-	@BeforeMethod
-	public void bm(Method m)
-	{
-		ts=BasePage.et.createNode(m.getName());
-	}
+	
 //    @Test
 //    public void enterusername()
 //    {
