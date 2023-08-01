@@ -9,7 +9,8 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class BasePage 
 {
-	private static ExtentSparkReporter esr;
+	private 
+	static ExtentSparkReporter esr;
 	public static ExtentReports er;
 	public static ExtentTest et;
 	public static ExtentTest ts;

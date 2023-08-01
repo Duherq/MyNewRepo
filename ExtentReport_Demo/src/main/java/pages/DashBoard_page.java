@@ -13,17 +13,6 @@ public class DashBoard_page extends BasePage
 //	private ExtentTest test;
 //	private ExtentTest ts;
 	
-	@BeforeClass
-	public void bc()
-	{
-		BasePage.et=BasePage.er.createTest("Dashboard_Page");
-	}
-	@BeforeMethod
-	public void bm(Method m)
-	{
-		BasePage.ts=BasePage.et.createNode(m.getName());
-		
-	}
 	
 	public static void check_tab()
 	{
