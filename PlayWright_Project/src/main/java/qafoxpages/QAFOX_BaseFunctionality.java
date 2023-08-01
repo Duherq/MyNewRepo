@@ -22,5 +22,13 @@ public class QAFOX_BaseFunctionality
 	{
 		page.close();
 	}
+	public static void qafox_login(String email,String password)
+	{
+		
+	}
+	public static void select_myaccountdropdown_option(String option)
+	{
+		
+	}
 
 }

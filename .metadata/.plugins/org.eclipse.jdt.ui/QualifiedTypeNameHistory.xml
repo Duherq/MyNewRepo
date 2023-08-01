@@ -9,11 +9,13 @@
     <fullyQualifiedTypeName name="com.microsoft.playwright.Browser.NewContextOptions"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.Locator"/>
     <fullyQualifiedTypeName name="com.microsoft.playwright.Page"/>
-    <fullyQualifiedTypeName name="qafoxpages.QAFOX_BaseFunctionality"/>
-    <fullyQualifiedTypeName name="qafoxpages.QAF_RegisterAccount_Page"/>
     <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
     <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
     <fullyQualifiedTypeName name="qafox_pages.QAFOX_Common_Functions"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="qafoxpages.QAFOX_BaseFunctionality"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+    <fullyQualifiedTypeName name="qafoxpages.QAF_RegisterAccount_Page"/>
 </qualifiedTypeNameHistroy>

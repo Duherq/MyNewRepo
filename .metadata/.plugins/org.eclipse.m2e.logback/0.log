@@ -482,3 +482,71 @@
 2023-07-29 17:17:43,522 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\GitHub\MyNewRepo\GithubPractice\src\test\resources
 2023-07-29 17:17:43,598 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-07-29 17:17:43,600 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 10:39:31,221 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-31 10:39:32,367 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-07-31 10:43:55,750 [Worker-10: Launching QAFOX_RegisterAccount_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 10:43:55,756 [Worker-10: Launching QAFOX_RegisterAccount_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 10:59:12,009 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 10:59:12,015 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:40:54,558 [Worker-29: Launching QAFOX_Login_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:40:54,567 [Worker-29: Launching QAFOX_Login_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:43:10,734 [Worker-27: Launching QAFOX_Login_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:43:10,739 [Worker-27: Launching QAFOX_Login_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:45:04,914 [Worker-28: Launching QAFOX_Login_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:45:04,917 [Worker-28: Launching QAFOX_Login_TestCase] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:55:36,913 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:55:36,918 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:55:42,164 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-31 11:55:42,169 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:26:51,931 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-08-01 12:26:52,584 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-08-01 12:27:42,011 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:27:42,020 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:28:18,122 [Worker-11: Creating project "ExtendReport_Demo"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:ExtendReport_Demo:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\ExtendReport_Demo\pom.xml.
+2023-08-01 12:28:18,381 [Worker-11: Creating project "ExtendReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ExtendReport_Demo/src/main/java
+2023-08-01 12:28:18,382 [Worker-11: Creating project "ExtendReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ExtendReport_Demo/src/main/resources
+2023-08-01 12:28:18,383 [Worker-11: Creating project "ExtendReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ExtendReport_Demo/src/test/java
+2023-08-01 12:28:18,384 [Worker-11: Creating project "ExtendReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ExtendReport_Demo/src/test/resources
+2023-08-01 12:28:18,709 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:28:18,709 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:28:18,715 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:28:18,718 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:32:09,022 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:ExtendReport_Demo:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\ExtendReport_Demo\pom.xml.
+2023-08-01 12:32:09,096 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:32:09,098 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:32:09,102 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:32:09,103 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:33:25,703 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:ExtendReport_Demo:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\ExtendReport_Demo\pom.xml.
+2023-08-01 12:33:25,793 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:33:25,795 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:33:25,798 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:33:25,799 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:33:27,592 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/aventstack/extentreports/5.0.9/extentreports-5.0.9-sources.jar
+2023-08-01 12:33:27,973 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/aventstack/extentreports/5.0.9/extentreports-5.0.9-sources.jar
+2023-08-01 12:33:27,981 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.aventstack:extentreports:5.0.9
+2023-08-01 12:33:28,133 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4-sources.jar
+2023-08-01 12:33:29,030 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4-sources.jar
+2023-08-01 12:33:29,034 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex.rxjava3:rxjava:3.0.4
+2023-08-01 12:33:29,154 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.30/freemarker-2.3.30-sources.jar
+2023-08-01 12:33:29,518 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.30/freemarker-2.3.30-sources.jar
+2023-08-01 12:33:29,525 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.30
+2023-08-01 12:33:29,562 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar
+2023-08-01 12:33:29,893 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar
+2023-08-01 12:33:29,901 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.12
+2023-08-01 12:33:30,024 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar
+2023-08-01 12:33:30,098 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar
+2023-08-01 12:33:30,106 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.8.6
+2023-08-01 12:34:54,026 [Worker-17: Creating project "ExtentReport_Demo"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:ExtentReport_Demo:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\ExtentReport_Demo\pom.xml.
+2023-08-01 12:34:54,244 [Worker-17: Creating project "ExtentReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ExtentReport_Demo/src/main/java
+2023-08-01 12:34:54,244 [Worker-17: Creating project "ExtentReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ExtentReport_Demo/src/main/resources
+2023-08-01 12:34:54,245 [Worker-17: Creating project "ExtentReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ExtentReport_Demo/src/test/java
+2023-08-01 12:34:54,245 [Worker-17: Creating project "ExtentReport_Demo"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ExtentReport_Demo/src/test/resources
+2023-08-01 12:34:54,539 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:34:54,540 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:34:54,543 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:34:54,544 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:35:36,617 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ZtoH:ExtentReport_Demo:0.0.1-SNAPSHOT @ C:\GitHub\MyNewRepo\ExtentReport_Demo\pom.xml.
+2023-08-01 12:35:36,704 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:35:36,705 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-08-01 12:35:36,708 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-08-01 12:35:36,709 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
