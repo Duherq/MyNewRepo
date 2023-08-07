@@ -1,155 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-01T18:53:37 IST" name="Suite" finished-at="2023-08-01T18:54:39 IST" duration-ms="61926">
+  <suite started-at="2023-08-03T12:12:42 IST" name="Default suite" finished-at="2023-08-03T12:12:59 IST" duration-ms="17543">
     <groups>
       <group name="Register Account">
-        <method signature="QAFOX_Login_TestCase.check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" name="check_navigate_QAFOXRegisterAccountPage" class="qafox_TestCases.QAFOX_Login_TestCase"/>
-        <method signature="QAFOX_RegisterAccount_TestCase.check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" name="check_navigate_QAFOXRegisterAccountPage" class="qafox_TestCases.QAFOX_RegisterAccount_TestCase"/>
-        <method signature="QAFOX_RegisterAccount_TestCase.check_registeraccountwith_validCredentials()[pri:2, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" name="check_registeraccountwith_validCredentials" class="qafox_TestCases.QAFOX_RegisterAccount_TestCase"/>
-        <method signature="QAFOX_RegisterAccount_TestCase.validate_registerAccount_blankOne_mandatoryField()[pri:3, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" name="validate_registerAccount_blankOne_mandatoryField" class="qafox_TestCases.QAFOX_RegisterAccount_TestCase"/>
-        <method signature="QAFOX_RegisterAccount_TestCase.validate_RegisterAccount_WithoutPirvacyPolicy()[pri:4, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" name="validate_RegisterAccount_WithoutPirvacyPolicy" class="qafox_TestCases.QAFOX_RegisterAccount_TestCase"/>
+        <method signature="QAFOX_Login_TestCase.check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" name="check_navigate_QAFOXRegisterAccountPage" class="qafox_TestCases.QAFOX_Login_TestCase"/>
       </group> <!-- Register Account -->
       <group name="Login">
-        <method signature="QAFOX_Login_TestCase.validate_login_with_validCredentials()[pri:2, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" name="validate_login_with_validCredentials" class="qafox_TestCases.QAFOX_Login_TestCase"/>
+        <method signature="QAFOX_Login_TestCase.validate_login_with_validCredentials()[pri:2, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" name="validate_login_with_validCredentials" class="qafox_TestCases.QAFOX_Login_TestCase"/>
       </group> <!-- Login -->
     </groups>
-    <test started-at="2023-08-01T18:53:37 IST" name="Test" finished-at="2023-08-01T18:54:39 IST" duration-ms="61926">
-      <class name="qafox_TestCases.QAFOX_RegisterAccount_TestCase">
-        <test-method is-config="true" signature="bs()[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:53:37 IST" name="bs" finished-at="2023-08-01T18:53:37 IST" duration-ms="230" status="PASS">
+    <test started-at="2023-08-03T12:12:42 IST" name="Default test" finished-at="2023-08-03T12:12:59 IST" duration-ms="17543">
+      <class name="qafox_TestCases.QAFOX_Login_TestCase">
+        <test-method is-config="true" signature="bs()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:41 IST" name="bs" finished-at="2023-08-03T12:12:42 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:53:37 IST" name="bc" finished-at="2023-08-01T18:53:37 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:42 IST" name="bc" finished-at="2023-08-03T12:12:42 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="launch_browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:53:37 IST" name="launch_browser" finished-at="2023-08-01T18:54:15 IST" duration-ms="38081" status="PASS">
+        <test-method is-config="true" signature="Open_Browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:42 IST" name="Open_Browser" finished-at="2023-08-03T12:12:55 IST" duration-ms="12773" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void qafox_TestCases.QAFOX_RegisterAccount_TestCase.check_navigate_QAFOXRegisterAccountPage() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:15 IST" name="check_navigate_QAFOXRegisterAccountPage" description="Test Case:Validate Navigate to QAFOX Register Account page" finished-at="2023-08-01T18:54:15 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_navigate_QAFOXRegisterAccountPage -->
-        <test-method is-config="true" signature="Close_browser()[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:15 IST" name="Close_browser" finished-at="2023-08-01T18:54:16 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close_browser -->
-        <test-method is-config="true" signature="launch_browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:16 IST" name="launch_browser" finished-at="2023-08-01T18:54:20 IST" duration-ms="4125" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qafox_TestCases.QAFOX_RegisterAccount_TestCase.check_registeraccountwith_validCredentials() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="check_registeraccountwith_validCredentials()[pri:2, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:20 IST" name="check_registeraccountwith_validCredentials" description="Test Case:Validate Create Account with valid Credentials" finished-at="2023-08-01T18:54:21 IST" duration-ms="906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_registeraccountwith_validCredentials -->
-        <test-method is-config="true" signature="Close_browser()[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:21 IST" name="Close_browser" finished-at="2023-08-01T18:54:21 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close_browser -->
-        <test-method is-config="true" signature="launch_browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:21 IST" name="launch_browser" finished-at="2023-08-01T18:54:25 IST" duration-ms="4462" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qafox_TestCases.QAFOX_RegisterAccount_TestCase.validate_registerAccount_blankOne_mandatoryField() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="validate_registerAccount_blankOne_mandatoryField()[pri:3, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:25 IST" name="validate_registerAccount_blankOne_mandatoryField" description="TestCase:Validate Register Account with blank one mandatory field" finished-at="2023-08-01T18:54:26 IST" duration-ms="959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_registerAccount_blankOne_mandatoryField -->
-        <test-method is-config="true" signature="Close_browser()[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:26 IST" name="Close_browser" finished-at="2023-08-01T18:54:26 IST" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close_browser -->
-        <test-method is-config="true" signature="launch_browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:26 IST" name="launch_browser" finished-at="2023-08-01T18:54:30 IST" duration-ms="4178" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qafox_TestCases.QAFOX_RegisterAccount_TestCase.validate_RegisterAccount_WithoutPirvacyPolicy() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="validate_RegisterAccount_WithoutPirvacyPolicy()[pri:4, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:30 IST" name="validate_RegisterAccount_WithoutPirvacyPolicy" description="Test Case:Validate Register Account with fill all fields without privacy policy" finished-at="2023-08-01T18:54:31 IST" duration-ms="1128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_RegisterAccount_WithoutPirvacyPolicy -->
-        <test-method is-config="true" signature="Close_browser()[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:31 IST" name="Close_browser" finished-at="2023-08-01T18:54:31 IST" duration-ms="56" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close_browser -->
-        <test-method is-config="true" signature="as()[pri:0, instance:qafox_TestCases.QAFOX_RegisterAccount_TestCase@3012646b]" started-at="2023-08-01T18:54:39 IST" name="as" finished-at="2023-08-01T18:54:40 IST" duration-ms="286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- as -->
-      </class> <!-- qafox_TestCases.QAFOX_RegisterAccount_TestCase -->
-      <class name="qafox_TestCases.QAFOX_Login_TestCase">
-        <test-method is-config="true" signature="bc()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" started-at="2023-08-01T18:54:31 IST" name="bc" finished-at="2023-08-01T18:54:31 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bc -->
-        <test-method is-config="true" signature="Open_Browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" started-at="2023-08-01T18:54:31 IST" name="Open_Browser" finished-at="2023-08-01T18:54:35 IST" duration-ms="3986" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qafox_TestCases.QAFOX_Login_TestCase.check_navigate_QAFOXRegisterAccountPage() throws java.lang.Exception]]>
+                <![CDATA[public static void qafox_TestCases.QAFOX_Login_TestCase.check_navigate_QAFOXRegisterAccountPage() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_Browser -->
-        <test-method signature="check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" started-at="2023-08-01T18:54:35 IST" name="check_navigate_QAFOXRegisterAccountPage" description="Test Case:Validate Navigate to QAFOX Register Account page" finished-at="2023-08-01T18:54:35 IST" duration-ms="3" status="PASS">
+        <test-method signature="check_navigate_QAFOXRegisterAccountPage()[pri:1, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:55 IST" name="check_navigate_QAFOXRegisterAccountPage" description="Test Case:Validate Navigate to QAFOX Register Account page" finished-at="2023-08-03T12:12:55 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_navigate_QAFOXRegisterAccountPage -->
-        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" started-at="2023-08-01T18:54:35 IST" name="Close_Browser" finished-at="2023-08-01T18:54:36 IST" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:55 IST" name="Close_Browser" finished-at="2023-08-03T12:12:55 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close_Browser -->
-        <test-method is-config="true" signature="Open_Browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" started-at="2023-08-01T18:54:36 IST" name="Open_Browser" finished-at="2023-08-01T18:54:39 IST" duration-ms="3622" status="PASS">
+        <test-method is-config="true" signature="Open_Browser(java.lang.reflect.Method)[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:55 IST" name="Open_Browser" finished-at="2023-08-03T12:12:59 IST" duration-ms="3908" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public static void qafox_TestCases.QAFOX_Login_TestCase.validate_login_with_validCredentials()]]>
+                <![CDATA[public static void qafox_TestCases.QAFOX_Login_TestCase.validate_login_with_validCredentials() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_Browser -->
-        <test-method signature="validate_login_with_validCredentials()[pri:2, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" started-at="2023-08-01T18:54:39 IST" name="validate_login_with_validCredentials" description="Test Case: Validate QAFOX Login with valid credentials" finished-at="2023-08-01T18:54:39 IST" duration-ms="2" status="PASS">
+        <test-method signature="validate_login_with_validCredentials()[pri:2, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:59 IST" name="validate_login_with_validCredentials" description="Test Case: Validate QAFOX Login with valid credentials" finished-at="2023-08-03T12:12:59 IST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_login_with_validCredentials -->
-        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d154ccd]" started-at="2023-08-01T18:54:39 IST" name="Close_Browser" finished-at="2023-08-01T18:54:39 IST" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:59 IST" name="Close_Browser" finished-at="2023-08-03T12:12:59 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close_Browser -->
+        <test-method is-config="true" signature="as()[pri:0, instance:qafox_TestCases.QAFOX_Login_TestCase@4d5650ae]" started-at="2023-08-03T12:12:59 IST" name="as" finished-at="2023-08-03T12:13:00 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
       </class> <!-- qafox_TestCases.QAFOX_Login_TestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

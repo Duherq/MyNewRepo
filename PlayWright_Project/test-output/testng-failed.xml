@@ -6,7 +6,11 @@
       <class name="qafox_TestCases.QAFOX_Login_TestCase">
         <methods>
           <include name="Open_Browser"/>
+          <include name="bs"/>
+          <include name="Close_Browser"/>
+          <include name="as"/>
           <include name="validate_login_with_validCredentials"/>
+          <include name="bc"/>
         </methods>
       </class> <!-- qafox_TestCases.QAFOX_Login_TestCase -->
     </classes>
