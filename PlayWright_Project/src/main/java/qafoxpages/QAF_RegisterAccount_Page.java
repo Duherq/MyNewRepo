@@ -21,6 +21,8 @@ public class QAF_RegisterAccount_Page extends QAFOX_BaseFunctionality
    private static String privacy_error_msg_xpath="//div[text()='Warning: You must agree to the Privacy Policy!']";
    private static String login_button_xpath="//div[@class='list-group']//a[text()='Login']";
    
+   
+   
    public static Locator firstname_inputbox()
    {
 	   return page.locator(firstname_xpath);
@@ -141,6 +143,8 @@ public class QAF_RegisterAccount_Page extends QAFOX_BaseFunctionality
 	{
 		return page.locator(login_button_xpath);
 	}
+	
+	
 	
 	
 
