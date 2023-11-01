@@ -214,7 +214,6 @@
       <children xsi:type="basic:PartStack" xmi:id="_ShL_XzHjEe6R06nSdkEWVw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_ShL_tDHjEe6R06nSdkEWVw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>noFocus</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_ShL_YDHjEe6R06nSdkEWVw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AccountRegistration_TestCase.feature" iconURI="platform:/plugin/cucumber.eclipse.editor/icons/cukes.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;cucumber.eclipse.editor.editors.Editor&quot; name=&quot;AccountRegistration_TestCase.feature&quot; partName=&quot;AccountRegistration_TestCase.feature&quot; title=&quot;AccountRegistration_TestCase.feature&quot; tooltip=&quot;Cucumber_Project/Features/AccountRegistration_TestCase.feature&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Cucumber_Project/Features/AccountRegistration_TestCase.feature&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2088&quot; selectionTopPixel=&quot;1108&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -247,7 +246,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_ShL_tDHjEe6R06nSdkEWVw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="QAFOX_RegisterAccount_TestCase.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;QAFOX_RegisterAccount_TestCase.java&quot; partName=&quot;QAFOX_RegisterAccount_TestCase.java&quot; title=&quot;QAFOX_RegisterAccount_TestCase.java&quot; tooltip=&quot;PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4526&quot; selectionTopPixel=&quot;2434&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;QAFOX_RegisterAccount_TestCase.java&quot; partName=&quot;QAFOX_RegisterAccount_TestCase.java&quot; title=&quot;QAFOX_RegisterAccount_TestCase.java&quot; tooltip=&quot;PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -539,7 +538,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ShMlvDHjEe6R06nSdkEWVw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xfxZ0Dy5Ee6bIqMdWIeW1g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ShQ39DHjEe6R06nSdkEWVw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rNAE0Hi9Ee6-Q4Seq5ICGA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ShQ39DHjEe6R06nSdkEWVw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ShMlyTHjEe6R06nSdkEWVw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -570,7 +569,10 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ShMmBDHjEe6R06nSdkEWVw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xfxZ3Ty5Ee6bIqMdWIeW1g" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ShQ3bTHjEe6R06nSdkEWVw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rNB6AHi9Ee6-Q4Seq5ICGA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ShQ3bTHjEe6R06nSdkEWVw"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ramb8Hi9Ee6-Q4Seq5ICGA" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
+        <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ShMmEDHjEe6R06nSdkEWVw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
