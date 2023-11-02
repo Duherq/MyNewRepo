@@ -245,8 +245,13 @@
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
+ LocalBranch
+        <children xsi:type="basic:Part" xmi:id="_ShL_tDHjEe6R06nSdkEWVw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="QAFOX_RegisterAccount_TestCase.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;QAFOX_RegisterAccount_TestCase.java&quot; partName=&quot;QAFOX_RegisterAccount_TestCase.java&quot; title=&quot;QAFOX_RegisterAccount_TestCase.java&quot; tooltip=&quot;PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;/>&#xD;&#xA;&lt;/editor>"/>
+
         <children xsi:type="basic:Part" xmi:id="_jdPT9mKwEe65RrMPt3xSoQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="QAFOX_RegisterAccount_TestCase.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;QAFOX_RegisterAccount_TestCase.java&quot; partName=&quot;QAFOX_RegisterAccount_TestCase.java&quot; title=&quot;QAFOX_RegisterAccount_TestCase.java&quot; tooltip=&quot;PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PlayWright_Project/src/main/java/qafox_TestCases/QAFOX_RegisterAccount_TestCase.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5132&quot; selectionTopPixel=&quot;3010&quot;/>&#xD;&#xA;&lt;/editor>"/>
+ Main
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -543,7 +548,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jdP7IGKwEe65RrMPt3xSoQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+ LocalBranch
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rNAE0Hi9Ee6-Q4Seq5ICGA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ShQ39DHjEe6R06nSdkEWVw"/>
+
         <children xsi:type="menu:HandledToolItem" xmi:id="_jdP7KGKwEe65RrMPt3xSoQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_jdSX6GKwEe65RrMPt3xSoQ"/>
+ Main
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jdP7LWKwEe65RrMPt3xSoQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -578,6 +587,13 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jdP7c2KwEe65RrMPt3xSoQ" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
         <tags>Draggable</tags>
+ LocalBranch
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rNB6AHi9Ee6-Q4Seq5ICGA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ShQ3bTHjEe6R06nSdkEWVw"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ramb8Hi9Ee6-Q4Seq5ICGA" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
+        <tags>Draggable</tags>
+
+ Main
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jdP7dGKwEe65RrMPt3xSoQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
